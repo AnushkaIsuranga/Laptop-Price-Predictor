@@ -1,0 +1,37 @@
+# General OS/editor
+.DS_Store
+Thumbs.db
+/.vscode/
+
+# Python caches & artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.eggs/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.cache/
+.coverage
+.coverage.*
+.ipynb_checkpoints/
+
+# Local virtual environment (root)
+pyvenv.cfg
+/Lib/
+/Scripts/
+/Include/
+/share/
+
+# Jupyter local config
+/.jupyter/
+
+# FastAPI model artifacts (generated)
+/final_model_spec.pkl
+/final_model_price.pkl
+
+# Logs
+*.log
+
